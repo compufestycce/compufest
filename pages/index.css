@@ -1,0 +1,23 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  background-color: #0f172a;
+  color: #293e66;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 10px 0 15px #1a2437;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #181a1b;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4d6188;
+  border-radius: 3px;
+}
