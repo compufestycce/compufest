@@ -13,7 +13,7 @@ const Organizer = ({ photo, name, number }) => {
         className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
       />
       <span className="flex-grow flex flex-col pl-4">
-        <span className="title-font font-medium text-white">{name}</span>
+        <span className="title-font font-medium text-black">{name}</span>
         {/* <span className="text-gray-500 text-xs tracking-widest mt-0.5">
           {number}
         </span> */}
@@ -59,16 +59,16 @@ const EventCards = ({
         />
       </div>
       <div className="p-4 lg:p-8 md:pl-0 lg:w-1/2 flex flex-col items-start">
-        <span className="inline-block py-1 px-2 rounded bg-gray-800 text-gray-400 text-opacity-75 text-sm font-medium tracking-widest">
+        <span className="inline-block py-1 px-2 rounded bg-gray-400 text-black text-opacity-75 text-sm font-medium tracking-widest">
           {category}
         </span>
-        <h2 className="sm:text-3xl text-2xl title-font font-mono font-medium text-white mt-4 mb-4">
+        <h2 className="sm:text-3xl text-2xl title-font font-mono font-medium text-black mt-4 mb-4">
           {title}
         </h2>
-        <p className="leading-relaxed mb-8">{desc}</p>
+        <p className="leading-relaxed mb-8 text-gray-700">{desc}</p>
         <div className="flex flex-col justify-center items-left gap-4 xl:flex-row xl:justify-start xl:items-end xl:gap-0 flex-wrap pr-20 pb-4 mb-4 md:pb-6 md:mb-6 border-b-2 border-gray-800 border-opacity-75 mt-auto w-full">
           {ctaMore ? (
-            <div className="text-gray-200 xl:mr-3 inline-flex items-center leading-none text-lg lg:pr-3 py-1">
+            <div className="text-gray-500 xl:mr-3 inline-flex items-center leading-none text-lg lg:pr-3 py-1">
               {ctaMore}
             </div>
           ) : null}

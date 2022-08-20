@@ -7,7 +7,7 @@ const About = () => {
     <>
       <section
         id="about"
-        className="text-gray-400 bg-gray-900 body-font container mx-auto flex flex-col lg:flex-row"
+        className="text-gray-700 bg-bg_custom body-font container mx-auto flex flex-col lg:flex-row"
       >
         <div className="flex px-5 py-24 items-center justify-center flex-col w-full lg:w-1/2">
           <Image
@@ -19,7 +19,7 @@ const About = () => {
             width={280}
           />
           <div className="text-center lg:w-2/3 w-full">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
               ACM Student Chapter
             </h1>
             <p className="leading-relaxed mb-8 text-justify">
@@ -43,7 +43,7 @@ const About = () => {
             placeholder={"blur"}
           />
           <div className="text-center lg:w-2/3 w-full">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
               CT Student Council
             </h1>
             <p className="leading-relaxed mb-8 text-justify">
@@ -61,10 +61,10 @@ const About = () => {
       </section>
       <div className="flex px-5 py-12 items-center justify-center flex-col w-full">
         <div className="text-center lg:w-2/4 w-full">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
             Department of Computer Technology
           </h1>
-          <p className="leading-relaxed mb-8 text-justify">
+          <p className="leading-relaxed mb-8 text-justify text-gray-600">
             The Department was established in 1985 and is accredited by National
             Board of Accreditation three times since 2003 and provides an
             outstanding Academic and Research environment complemented by
@@ -73,7 +73,7 @@ const About = () => {
             industry as well as Research organizations with a proper blend of
             professional core and industry aligned electives.
             <span className="block text-left">
-              <span className="font-bold text-gray-300">
+              <span className="font-bold text-gray-700">
                 Vision of the Department
               </span>{" "}
               is to be a well-known center for pursuing computer education
@@ -81,7 +81,7 @@ const About = () => {
               collaboration.
             </span>
             <span className="block text-left">
-              <span className="font-bold text-gray-300">
+              <span className="font-bold text-gray-700">
                 Mission of the Department
               </span>{" "}
               is to establish learning ambience for ushering in computer

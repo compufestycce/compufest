@@ -4,6 +4,6 @@ app.start("/scene.gltf");
 window.onload=()=>{
     let element = document.getElementById('canvas3d');
     console.log(element);
-    element.style.width = "80%";
-    element.style.height = "80%";
+    element.style.width = "78%";
+    element.style.height = "78%";
 }

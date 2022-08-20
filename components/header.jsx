@@ -54,7 +54,7 @@ const Header = () => {
           <AnimatePresence>
             {scrolledDown && (
               <motion.span
-                className="ml-1 text-3xl font-head"
+                className="ml-1 text-3xl font-head text-gray-800"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}

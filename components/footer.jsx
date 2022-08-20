@@ -28,11 +28,11 @@ const Footer = () => {
             <img alt="logo" src="/assets/logo.svg" className="h-10" />
             <span className="ml-3 text-xl">Compufest</span>
           </a>
-          <p className="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4 text-center">
+          <p className="text-sm text-gray-300 sm:ml-6 sm:mt-0 mt-4 text-center">
             © 2022 Compufest — Developed by
             <a
               href="https://seebham.codes"
-              className="text-gray-500 ml-1"
+              className="text-gray-400 ml-1"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -41,11 +41,20 @@ const Footer = () => {
             and
             <a
               href="https://twitter.com/Swnnd"
-              className="text-gray-500 ml-1"
+              className="text-gray-400 ml-1"
               target="_blank"
               rel="noopener noreferrer"
             >
               @swnnd
+            </a>{" | "}
+            Redesigned & Developed By
+            <a
+              href="www.linkedin.com/in/gpt-ankit"
+              className="text-gray-400 ml-1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @gpt-ankit
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start gap-2">

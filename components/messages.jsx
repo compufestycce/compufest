@@ -18,7 +18,7 @@ const HODMsg = () => {
             Technology is the essence of today's world. Being the Head of the
             Computer Technology Department, YCCE, Nagpur, I am glad to announce
             the 26th edition of an annual technical event of the department
-            “COMPUFEST 2K21”. We as faculty members work with the sole objective
+            “COMPUFEST 2K22”. We as faculty members work with the sole objective
             of nurturing the students with multidimensional skill sets to make
             them perform impeccably. Amid this global pandemic, events like
             Compufest will keep the technical spark alive in students. Let’s
@@ -46,7 +46,7 @@ const HODMsg = () => {
 
 const CoordinatorMsg = ({ photo, msg, name, subtitle }) => {
   return (
-    <div className="lg:w-1/4 lg:mb-0 p-4 mb-4">
+    <div className="lg:w-1/4 lg:mb-0 p-4 mb-4 ">
       <div className="h-full text-center">
         <img
           loading="lazy"
@@ -56,7 +56,7 @@ const CoordinatorMsg = ({ photo, msg, name, subtitle }) => {
         />
         <p className="leading-relaxed text-base">{msg}</p>
         <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-4 mb-4"></span>
-        <h2 className="text-white font-medium title-font tracking-wider text-base">
+        <h2 className="text-black font-medium title-font tracking-wider text-base">
           {name}
         </h2>
         <p className="text-gray-500">{subtitle}</p>
@@ -84,7 +84,7 @@ const Messages = () => {
   return (
     <section id="messages">
       <HODMsg />
-      <section className="text-gray-400 bg-gray-900 body-font">
+      <section className="text-gray-700 bg-bg_custom body-font">
         <div className="container px-5 py-8 mt-0 mx-auto">
           <div className="flex flex-wrap -m-4 justify-center">
             {msgs &&

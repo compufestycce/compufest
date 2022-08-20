@@ -10,8 +10,8 @@ const Events = () => {
           {/* <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 mt-5 text-white font-head">
             COMPUFEST 2k22
           </h1> */}
-          <p className="px-4 lg:w-2/5 mx-auto leading-relaxed text-base text-center">
-            <span className="block text-indigo-400 text-xl mb-4 font-semibold">
+          <p className="px-4 lg:w-2/5 mx-auto text-gray-600 leading-relaxed text-base text-center">
+            <span className="block text-indigo-500 text-xl mb-4 font-semibold">
               Celebrating 26 years of excellence!
             </span>
             A National level Technical Symposium of the Dept. of Computer
