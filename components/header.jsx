@@ -7,11 +7,17 @@ const Header = () => {
   const [scrolledDown, setScrolledDown] = useState(false);
   const [windowWidth, setWindowWidth] = useState(0);
   const scrollToTop = () => {
-    window.scrollTo(0, 0);
+    window.scrollTo(100, 500);
   };
   const scroll = () => {
-    if (window.scrollY > window.screen.height / 2) setScrolledDown(true);
-    else setScrolledDown(false);
+    if (window.scrollY > window.screen.height / 2) {setScrolledDown(true);
+      document.getElementById('bgHeader').style.backgroundColor= "#c9c9c9";
+    }
+    else {
+      setScrolledDown(false);
+      document.getElementById('bgHeader').style.backgroundColor= "transparent";
+    }
+
   };
   React.useEffect(() => {
     setWindowWidth(window.innerWidth);
@@ -19,7 +25,7 @@ const Header = () => {
     return () => window.removeEventListener("scroll", scroll);
   }, []);
   return (
-    <header className="fixed w-full top-0 z-50 text-gray-400 body-font">
+    <header id="bgHeader" className="fixed w-full top-0 z-50 text-gray-900 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav className="flex gap-5 lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
           <Link href="#events">
@@ -53,7 +59,8 @@ const Header = () => {
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
               >
-                <span className="hidden">C</span>OMPUFEST
+                OMPUFEST
+                {/* <span className="hidden">C</span>OMPUFEST */}
               </motion.span>
             )}
           </AnimatePresence>

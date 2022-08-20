@@ -94,6 +94,7 @@ const Hero = () => {
             variants={heroLogoVariants}
             transition={{ type: "spring", stiffness: 20 }}
             className="h-12 md:h-24"
+            color="black"
           />
           <AnimatePresence>
             {animateStart ? (
@@ -107,7 +108,7 @@ const Hero = () => {
                   type: "spring",
                   stiffness: 20,
                 }}
-                className="font-head text-4xl md:text-7xl text-gray-50 ml-1 relative"
+                className="font-head text-4xl md:text-7xl text-gray-900 ml-1 relative"
               >
                 {" "}
                 OMPUFEST
@@ -125,11 +126,11 @@ const Hero = () => {
           className="text-center"
         > 
           <p className="mt-12 font-medium text-lg">
-            A National Level Technical Fest
-            <span className="block mt-2 text-gray-300 text-lg md:text-2xl font-medium">
+            <span className="text-gray-800"> A National Level Technical Fest </span> 
+            <span className="block mt-2 text-gray-900 text-lg md:text-2xl font-medium">
               Department of Computer Technology
             </span>
-            <span className="block text-gray-300 text-lg md:text-3xl font-bold">
+            <span className="block text-gray-900 text-lg md:text-3xl font-bold">
               Yeshwantrao Chavan College of Engineering
             </span>
           </p>

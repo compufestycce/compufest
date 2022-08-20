@@ -2,15 +2,15 @@ import React from "react";
 
 const ScheEvent = ({ date, time, name }) => {
   return (
-    <div className="py-8 flex flex-col flex-wrap md:flex-nowrap md:flex-row lg:items-center">
+    <div className="py-8 flex flex-col flex-wrap md:flex-nowrap md:flex-row lg:items-center bg-bg_custom">
       <div className="md:w-64 md:mb-0 mb-1 flex-shrink-0 flex flex-col">
-        <span className="font-medium title-font text-white lg:text-lg">
+        <span className="font-bold title-font text-grey-600 lg:text-lg">
           {date}
         </span>
-        <span className="mt-0 text-gray-500 lg:text-base">{time}</span>
+        <span className="mt-0 text-gray-700 lg:text-base">{time}</span>
       </div>
       <div className="md:flex-grow">
-        <h2 className="text-lg lg:text-xl font-medium text-white title-font mb-2">
+        <h2 className="text-lg lg:text-xl font-medium text-grey-900 title-font mb-2">
           {name}
         </h2>
       </div>
@@ -60,7 +60,7 @@ const Schedule = () => {
   return (
     <section
       id="schedule"
-      className="text-gray-400 bg-gray-900 body-font overflow-hidden"
+      className="text-gray-700 bg-bg_custom body-font overflow-hidden"
     >
       <div className="container px-8 lg:px-20 py-24 mx-auto lg:w-2/3">
         <h2 className="text-indigo-400 text-3xl lg:text-4xl mb-8 font-semibold">

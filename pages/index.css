@@ -2,10 +2,12 @@ html,
 body {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  
 }
 
 ::-webkit-scrollbar {
-  background-color: #0f172a;
+  background-color: #c9c9c9;
+  /* background-color: #0f172a; */
   color: #293e66;
   width: 10px;
 }
@@ -23,8 +25,8 @@ body {
   border-radius: 3px;
 }
 
-#canvasContainer {
-  width: 500px;
-  height: 500px;
+#canvas3d{
   outline: none;
+  margin: auto;
+  margin-top: 5%;
 }

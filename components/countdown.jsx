@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 const ClockBlock = ({ value, title }) => {
   return (
     <div className="flex flex-col items-center font-mono">
-      <div className="text-3xl text-white">
+      <div className="text-3xl text-grey-600">
         {value < 10 ? "0" + value : value}
       </div>
-      <div className="text-xs text-gray-400">{title}</div>
+      <div className="text-xs text-gray-800">{title}</div>
     </div>
   );
 };
@@ -60,7 +60,7 @@ const CountDown = () => {
   }, []);
   if (timeLeft.expired === true) {
     return (
-      <div className="text-xl text-gray-400">30th Sept. - 1st Oct., 2021</div>
+      <div className="text-xl text-gray-900">1th Sept. - 3rd Sept., 2022</div>
     );
   } else {
     return (

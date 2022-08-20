@@ -3,7 +3,7 @@ import getPhotoURL from "../utils/getPhotoUrl";
 
 const HODMsg = () => {
   return (
-    <div className="text-gray-400 bg-gray-900 body-font">
+    <div className="text-gray-700 bg-bg_custom body-font">
       <div className="container px-5 py-10 my-12 pb-0 mx-auto">
         <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
           <svg
@@ -34,7 +34,7 @@ const HODMsg = () => {
               src={getPhotoURL("prof1")}
             />
           </div>
-          <h2 className="text-white font-medium title-font tracking-wider text-lg">
+          <h2 className="text-black font-medium title-font tracking-wider text-lg">
             Dr. Rakhi Wajgi
           </h2>
           <p className="text-gray-500">HOD, Computer Technology Department</p>

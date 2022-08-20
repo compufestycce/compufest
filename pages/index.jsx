@@ -12,7 +12,7 @@ const description =
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen text-gray-400 bg-gray-900">
+    <div className="flex flex-col min-h-screen text-gray-400" style={{backgroundColor: "#c9c9c9"}} >
       <Head>
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <title>Compufest 2022</title>
