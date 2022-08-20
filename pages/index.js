@@ -35,6 +35,10 @@ export default function Home() {
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="628" />
         <meta property="twitter:card" content="summary_large_image" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.spline.design/lib/anime.min.js"></script>
+        <script src="https://assets.codepen.io/9589/spline.runtime.min.js"></script>  
+        <script src="script.js"></script>
       </Head>
       <Header />
       <main className="flex flex-col flex-1">

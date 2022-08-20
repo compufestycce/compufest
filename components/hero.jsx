@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-
+import SplineComponent from "./SplineComponent";
 const heroLogoVariants = {
   hidden: {
     x: "calc(100vw - 85vw)",
@@ -49,7 +49,8 @@ const Hero = () => {
   }, []);
   return (
     <div className="min-h-screen pt-24 flex flex-col justify-center relative">
-      <motion.div
+      <div className="absolute z-10 w-full">
+      {/* <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2 }}
@@ -81,9 +82,9 @@ const Hero = () => {
           className="hidden xl:block absolute left-2/5 h-1/4 right-40 bottom-2/3 flex-shrink-0 w-24 object-contain object-center"
           src="/assets/imgs/hero/minLaptop2.png"
         />
-      </motion.div>
-
-      <div className="flex flex-col items-center py-4 mt-8 xl:mt-0">
+      </motion.div> */}
+      
+      <div className="flex flex-col items-center py-4 mt-10 xl:mt-0">
         <div className="flex justify-center items-center">
           <motion.img
             alt="main logo"
@@ -122,7 +123,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.8 }}
           className="text-center"
-        >
+        > 
           <p className="mt-12 font-medium text-lg">
             A National Level Technical Fest
             <span className="block mt-2 text-gray-300 text-lg md:text-2xl font-medium">
@@ -134,6 +135,9 @@ const Hero = () => {
           </p>
         </motion.div>
       </div>
+      </div>
+
+      <div className="z-0 absolute w-full h-full top-0 left-0 bg-bg_custom"> <SplineComponent /></div> 
     </div>
   );
 };

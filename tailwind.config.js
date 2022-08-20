@@ -28,6 +28,7 @@ module.exports = {
       indigo: colors.indigo,
       // Custom colors
       accent: "#67fff4",
+      bg_custom:"#c9c9c9"
     },
   },
   variants: {
