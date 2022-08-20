@@ -2,7 +2,7 @@ html,
 body {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  
+
 }
 
 ::-webkit-scrollbar {
@@ -28,5 +28,5 @@ body {
 #canvas3d{
   outline: none;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 3%;
 }
