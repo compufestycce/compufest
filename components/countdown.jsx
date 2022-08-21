@@ -60,7 +60,7 @@ const CountDown = () => {
   }, []);
   if (timeLeft.expired === true) {
     return (
-      <div className="text-xl text-gray-900">1th Sept. - 3rd Sept., 2022</div>
+      <div className="text-xl text-gray-900">1st Sept. - 3rd Sept., 2022</div>
     );
   } else {
     return (

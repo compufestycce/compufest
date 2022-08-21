@@ -50,13 +50,13 @@ const Hero = () => {
   return (
     <div className="min-h-screen pt-24 flex flex-col justify-center relative">
       <div className="absolute z-10 w-full">
-      {/* <motion.div
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2 }}
         className="flex justify-center items-center"
       >
-        <motion.img
+        {/* <motion.img
           initial={imgsVariants.initial}
           animate={{ ...imgsVariants.animate, x: 2, y: 2 }}
           transition={imgsVariants.transition}
@@ -81,8 +81,8 @@ const Hero = () => {
           alt="laptop4"
           className="hidden xl:block absolute left-2/5 h-1/4 right-40 bottom-2/3 flex-shrink-0 w-24 object-contain object-center"
           src="/assets/imgs/hero/minLaptop2.png"
-        />
-      </motion.div> */}
+        /> */}
+      </motion.div>
       
       <div className="flex flex-col items-center py-4 mt-10 xl:mt-0">
         <div className="flex justify-center items-center">
