@@ -65,7 +65,7 @@ const EventCards = ({
         <h2 className="sm:text-3xl text-2xl title-font font-mono font-medium text-black mt-4 mb-4">
           {title}
         </h2>
-        <p className="leading-relaxed mb-8 text-gray-700">{desc}</p>
+        <p className="leading-relaxed mb-8 text-gray-700 text-justify">{desc}</p>
         <div className="flex flex-col justify-center items-left gap-4 xl:flex-row xl:justify-start xl:items-end xl:gap-0 flex-wrap pr-20 pb-4 mb-4 md:pb-6 md:mb-6 border-b-2 border-gray-800 border-opacity-75 mt-auto w-full">
           {ctaMore ? (
             <div className="text-gray-500 xl:mr-3 inline-flex items-center leading-none text-lg lg:pr-3 py-1">
