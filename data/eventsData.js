@@ -20,24 +20,7 @@ import Valorant  from "../public/assets/imgs/events/Valorant.webp";
 
 import getPhotoURL from "../utils/getPhotoUrl";
 
-const events = [
-  {
-    img: Technologies,
-    title: "Computing Technologies",
-    category: "MLSA Workshop",
-    desc: `Learning is unifying seemingly divergent ideas and data. 
-    It's a chance to interact with the Microsoft Ambassadors LIVE!!!
-    Microsoft Learn Student Ambassadors from all over the world and the Program Administrator will be there to share their knowledge on Cloud Computing and Computer Vision on MS Azure. 
-    Hands on sessions by Microsoft Ambassadors for leveraging the learning by doing approach. If you are Enthusiastic about learning some exciting unknown applications of Cloud and Azure this is the Chance to expand your knowledge and get a mastery in Cloud and Azure. A verified  Certificate from Microsoft will be given to all the attendees…`,
-    cta: "Submit Now",
-    ctaLink: "https://forms.gle/EMnfy8Ca6jECtsYJA",
-    ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: false,
-    CTAClosedMsg: "Submission Closed",
-    organizers: [
-      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("defaultAvatar")},
-    ],
-  },
+const eventsNational = [
   {
     img: Hackthon,
     title: "Hackathon",
@@ -63,7 +46,149 @@ const events = [
     isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("nik")},
+    ],
+  },
+  
+  {
+    img: Gamathon,
+    title: "Gamathon",
+    category: "Development",
+    desc: "Nowadays, game designing and development has become a trend. It is the art for applying design aesthetics to give birth to a game for different purposes. And developing a game emphasizes on programming. So, we bring to you a workshop “GAMATHON” which will provide the participants deep knowledge regarding game designing and development .Activities will also be conducted in accordance with the same. Then, what are you waiting for ? Hurry and grab a chance for this exciting journey !!! ",
+    cta: "Submit Now",
+    ctaMore: "Submit before: 30th Aug 11:59pm IST",
+    ctaLink: "https://forms.gle/7xvL1fE88vE81KTV7",
+    isCTAClosed: false,
+    CTAClosedMsg: "Submission Closed",
+    organizers: [
+      {name: "Kartik Umbarkar", number: "", photo:getPhotoURL("karU")},
+    ],
+  },
+
+  {
+    img: Codigo,
+    title: "Codigo",
+    category: "Coding",
+    desc: "Codigo is an online coding competition organized by the CodeChef YCCE Chapter. It's a battle for those who are interested in solving energizing problems. Here, participants will have the opportunity to develop and test their programming skills. No matter whether you are a beginner or an experienced coder, the only prerequisite is that the contestant should be familiar with the CodeChef platform.",
+    cta: "Submit Now",
+    ctaLink: "https://forms.gle/6whHc9uHQkwjsJjr6",
+    ctaMore: "Submit before: 30th Aug 11:59pm IST",
+    isCTAClosed: false,
+    CTAClosedMsg: "Submission Closed",
+    organizers: [
+      {name: "Haziquddin", number: "", photo:getPhotoURL("haziq")},
+    ],
+  },
+
+  {
+    img: Binary,
+    title: "Binary Search",
+    category: "Treasure hunt",
+    desc: `Are you eager to build your career among the best of the security agencies of the world? If yes, then come join in the fun of “Binary Search” and reveal the agent inside you. The idea of hunting for hidden treasures has always been exciting and adventurous. Participants will work in teams of four to find the treasure with the help of given clues. The team who decodes the clue and finds the treasure first will win the game. Consider yourself to be an epistemologist. Seek the truth out of unrevealed mysteries by participating in the most exhilarating of the games “CT SCAN”.`,
+    cta: "Register Now",
+    ctaMore: "Submit before: 30th Aug 11:59pm IST",
+    ctaLink: "https://forms.gle/Qn2kvtctokZKMC4WA",
+    isCTAClosed: false,
+    CTAClosedMsg: "Registration Closed",
+    organizers: [
+      {name: "Prasanna Anjankar", number: "", photo:getPhotoURL("pras")},
+    ],
+  },
+  {
+    img: Table,
+    title: "Table Topics",
+    category: "MUN",
+    desc: `Speaking and negotiation are no longer just a "soft skills", those are your keys to success in any field! Here, participants with their teams of 4-5 will be given real-life problems and they need to discuss & provide the best ideal solution within the given time.
+
+    Do come and participate in the Model United Nations Debate Competition and manifest your skills and be the conqueror🏆✨`,
+    cta: "Register Now",
+    ctaLink: "https://forms.gle/T17MGSq25h4b8sei6",
+    ctaMore: "Submit before: 30th Aug 11:59pm IST",
+    isCTAClosed: false,
+    CTAClosedMsg: "Registration Closed",
+    organizers: [
+      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("sak")},
+    ],
+  },
+  {
+    img: Artika,
+    title: "Artika",
+    category: "Live Art",
+    desc: "Art should be something that liberates the soul, provokes the imagination and encourages people to go further. Your art is a line around your thoughts. If you have an art that evokes mystery this is the opportunity to showcase your talent. Let others see & feel your artwork. We welcome all Enthusiasts from every corner, to participate in live art events; an event in which you will not reproduce reality but have to create reality of the same intensity. If you have the adroitness to make others feel your vision then this is something for you. Reboot your Intense mode of individualism. Don't miss the chance to flaunt your skills in the form of art. ",
+    cta: "Register Now",
+    ctaLink: "https://forms.gle/oHMFqbRn5Gr7Vncw8",
+    ctaMore: "Submit before: 30th Aug 11:59pm IST",
+    isCTAClosed: false,
+    CTAClosedMsg: "Registration Closed",
+    organizers: [
+      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("sak")},
+    ],
+  },
+  {
+    img: Sparq,
+    title: "SPARQ Game",
+    category: "Gaming",
+    desc: "Nothing brings gamers together like a bit of competition. We are here with the SPARQ gaming competition for the students to Showcase their gaming skills in a game like FIFA 2022 PS4 and BGMI as you put yourself against the best in the country...!!!",
+    cta: "Register Now",
+    ctaLink: "https://forms.gle/EidKrkdGhVwFA8Ai8",
+    ctaMore: "Submit before: 30th Aug 11:59pm IST",
+    isCTAClosed: false,
+    CTAClosedMsg: "Registration Closed",
+    organizers: [
+      {name: "Deepam Waghye", number: "", photo:getPhotoURL("defaultAvatar")},
+    ],
+  },
+  {
+    img: Izzhar,
+    title: "Izzhar",
+    category: "Open Mic",
+    desc: `Poetry is harmony to the words, so music is that of notes ;As poetry rises above the prose and oratory ,so music the exaltation of poetry. The enthusiastic students who are keen can express their poetry, songs and stand-ups in Open Mic. Come and crave all your heart out with us at Open Mic.`,
+    cta: "Register Now",
+    ctaLink: "https://forms.gle/q4LAf62p4e4gM4qt8",
+    ctaMore: "Submit before: 30th Aug 11:59pm IST",
+    isCTAClosed: false,
+    CTAClosedMsg: "Registration Closed",
+    organizers: [
+      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("nik")},
+    ],
+  },
+  {
+    img: Flashmob,
+    title: "Flashmob",
+    category: "Cultural",
+    desc: `An Cultural event of Compufest
+    Date : 2nd sept
+    Time : 2:00 pm onwards
+    Venue : CT Parking
+    Organizer : Bhargavi Bodhankar
+    Contact no. : 9145118559`,
+    cta: "Register Now",
+    ctaMore: "On 2st of September",
+    ctaLink: "",
+    isCTAClosed: true,
+    CTAClosedMsg: "2 pm Onwards",
+    organizers: [
+      {name: "Bhargavi Bodhankar", number: "", photo:getPhotoURL("defaultAvatar")},
+    ],
+  },
+];
+
+const eventsInterational = [
+  {
+    img: Technologies,
+    title: "Computing Technologies",
+    category: "MLSA Workshop",
+    desc: `Learning is unifying seemingly divergent ideas and data. 
+    It's a chance to interact with the Microsoft Ambassadors LIVE!!!
+    Microsoft Learn Student Ambassadors from all over the world and the Program Administrator will be there to share their knowledge on Cloud Computing and Computer Vision on MS Azure. 
+    Hands on sessions by Microsoft Ambassadors for leveraging the learning by doing approach. If you are Enthusiastic about learning some exciting unknown applications of Cloud and Azure this is the Chance to expand your knowledge and get a mastery in Cloud and Azure. A verified  Certificate from Microsoft will be given to all the attendees…`,
+    cta: "Submit Now",
+    ctaLink: "https://forms.gle/EMnfy8Ca6jECtsYJA",
+    ctaMore: "Submit before: 30th Aug 11:59pm IST",
+    isCTAClosed: false,
+    CTAClosedMsg: "Submission Closed",
+    organizers: [
+      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("sak")},
     ],
   },
   {
@@ -79,21 +204,7 @@ const events = [
     isCTAClosed: true,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("defaultAvatar")},
-    ],
-  },
-  {
-    img: Gamathon,
-    title: "Gamathon",
-    category: "Development",
-    desc: "Nowadays, game designing and development has become a trend. It is the art for applying design aesthetics to give birth to a game for different purposes. And developing a game emphasizes on programming. So, we bring to you a workshop “GAMATHON” which will provide the participants deep knowledge regarding game designing and development .Activities will also be conducted in accordance with the same. Then, what are you waiting for ? Hurry and grab a chance for this exciting journey !!! ",
-    cta: "Submit Now",
-    ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    ctaLink: "https://forms.gle/7xvL1fE88vE81KTV7",
-    isCTAClosed: false,
-    CTAClosedMsg: "Submission Closed",
-    organizers: [
-      {name: "Kartik Umbarkar", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("nik")},
     ],
   },
   {
@@ -107,21 +218,7 @@ const events = [
     isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Bhushan Naidu", number: "", photo:getPhotoURL("defaultAvatar")},
-    ],
-  },
-  {
-    img: Codigo,
-    title: "Codigo",
-    category: "Coding",
-    desc: "Codigo is an online coding competition organized by the CodeChef YCCE Chapter. It's a battle for those who are interested in solving energizing problems. Here, participants will have the opportunity to develop and test their programming skills. No matter whether you are a beginner or an experienced coder, the only prerequisite is that the contestant should be familiar with the CodeChef platform.",
-    cta: "Submit Now",
-    ctaLink: "https://forms.gle/6whHc9uHQkwjsJjr6",
-    ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: false,
-    CTAClosedMsg: "Submission Closed",
-    organizers: [
-      {name: "Haziquddin", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Bhushan Naidu", number: "", photo:getPhotoURL("bhu")},
     ],
   },
   {
@@ -139,50 +236,6 @@ const events = [
     ],
   },
   {
-    img: Binary,
-    title: "Binary Search",
-    category: "Treasure hunt",
-    desc: `Are you eager to build your career among the best of the security agencies of the world? If yes, then come join in the fun of “Binary Search” and reveal the agent inside you. The idea of hunting for hidden treasures has always been exciting and adventurous. Participants will work in teams of four to find the treasure with the help of given clues. The team who decodes the clue and finds the treasure first will win the game. Consider yourself to be an epistemologist. Seek the truth out of unrevealed mysteries by participating in the most exhilarating of the games “CT SCAN”.`,
-    cta: "Register Now",
-    ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    ctaLink: "https://forms.gle/Qn2kvtctokZKMC4WA",
-    isCTAClosed: false,
-    CTAClosedMsg: "Registration Closed",
-    organizers: [
-      {name: "Prasanna Anjankar", number: "", photo:getPhotoURL("defaultAvatar")},
-    ],
-  },
-  {
-    img: Table,
-    title: "Table Topics",
-    category: "MUN",
-    desc: `Speaking and negotiation are no longer just a "soft skills", those are your keys to success in any field! Here, participants with their teams of 4-5 will be given real-life problems and they need to discuss & provide the best ideal solution within the given time.
-
-    Do come and participate in the Model United Nations Debate Competition and manifest your skills and be the conqueror🏆✨`,
-    cta: "Register Now",
-    ctaLink: "https://forms.gle/T17MGSq25h4b8sei6",
-    ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: false,
-    CTAClosedMsg: "Registration Closed",
-    organizers: [
-      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("defaultAvatar")},
-    ],
-  },
-  {
-    img: Artika,
-    title: "Artika",
-    category: "Live Art",
-    desc: "Art should be something that liberates the soul, provokes the imagination and encourages people to go further. Your art is a line around your thoughts. If you have an art that evokes mystery this is the opportunity to showcase your talent. Let others see & feel your artwork. We welcome all Enthusiasts from every corner, to participate in live art events; an event in which you will not reproduce reality but have to create reality of the same intensity. If you have the adroitness to make others feel your vision then this is something for you. Reboot your Intense mode of individualism. Don’t miss the chance to flaunt your skills in the form of art. ",
-    cta: "Register Now",
-    ctaLink: "https://forms.gle/oHMFqbRn5Gr7Vncw8",
-    ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: false,
-    CTAClosedMsg: "Registration Closed",
-    organizers: [
-      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("defaultAvatar")},
-    ],
-  },
-  {
     img: Burn,
     title: "Burn-a-Word",
     category: "Article",
@@ -193,7 +246,7 @@ const events = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Pranjali Thaware", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Pranjali Thaware", number: "", photo:getPhotoURL("pra")},
     ],
   },
   {
@@ -235,20 +288,6 @@ const events = [
     ],
   },
   {
-    img: Sparq,
-    title: "SPARQ Game",
-    category: "Gaming",
-    desc: "Nothing brings gamers together like a bit of competition. We are here with the SPARQ gaming competition for the students to Showcase their gaming skills in a game like FIFA 2022 PS4 and BGMI as you put yourself against the best in the country...!!!",
-    cta: "Register Now",
-    ctaLink: "https://forms.gle/EidKrkdGhVwFA8Ai8",
-    ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: false,
-    CTAClosedMsg: "Registration Closed",
-    organizers: [
-      {name: "Deepam Waghye", number: "", photo:getPhotoURL("defaultAvatar")},
-    ],
-  },
-  {
     img: Valorant,
     title: "Game Valorant",
     category: "Gaming",
@@ -259,42 +298,9 @@ const events = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Kartik Yeole", number: "", photo:getPhotoURL("defaultAvatar")},
-    ],
-  },
-  {
-    img: Izzhar,
-    title: "Izzhar",
-    category: "Open Mic",
-    desc: `Poetry is harmony to the words, so music is that of notes ;As poetry rises above the prose and oratory ,so music the exaltation of poetry. The enthusiastic students who are keen can express their poetry, songs and stand-ups in Open Mic. Come and crave all your heart out with us at Open Mic.`,
-    cta: "Register Now",
-    ctaLink: "https://forms.gle/q4LAf62p4e4gM4qt8",
-    ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: false,
-    CTAClosedMsg: "Registration Closed",
-    organizers: [
-      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("defaultAvatar")},
-    ],
-  },
-  {
-    img: Flashmob,
-    title: "Flashmob",
-    category: "Cultural",
-    desc: `An Cultural event of Compufest
-    Date : 2nd sept
-    Time : 2:00 pm onwards
-    Venue : CT Parking
-    Organizer : Bhargavi Bodhankar
-    Contact no. : 9145118559`,
-    cta: "Register Now",
-    ctaMore: "On 2st of September",
-    ctaLink: "",
-    isCTAClosed: true,
-    CTAClosedMsg: "2 pm Onwards",
-    organizers: [
-      {name: "Bhargavi Bodhankar", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Kartik Yeole", number: "", photo:getPhotoURL("kar")},
     ],
   },
 ];
 
-export default events;
+export  {eventsNational , eventsInterational};

@@ -64,31 +64,31 @@ const About = () => {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
             Department of Computer Technology
           </h1>
-          <p className="leading-relaxed mb-8 text-justify text-gray-600">
+          <div className="leading-relaxed mb-8 text-justify text-gray-600">
             The Department was established in 1985 and is accredited by National
             Board of Accreditation three times since 2003 and provides an
             outstanding Academic and Research environment complemented by
             excellence in teaching. The curricula of programmes have been
             designed to cater to the ever changing needs and demands of the IT
             industry as well as Research organizations with a proper blend of
-            professional core and industry aligned electives.
-            <span className="block text-left">
-              <span className="font-bold text-gray-700">
+            professional core and industry aligned electives. Department has NVIDIA Centre of Excellence lab having state of art hardware and licensed software to carry out  advanced research in the domains of IoT, AI,ML, DL,CV etc. The Department offers four different Thrust areas such as Artificial Intelligence, Data Science and Cloud Computing, Communication, Networks and Security, Image Processing under which various activities related to research and development are carried out.
+            <div className="block text-left">
+              <div className="font-bold text-xl text-center pt-4 text-gray-700">
                 Vision of the Department
-              </span>{" "}
+              </div>
               is to be a well-known center for pursuing computer education
               through innovative pedagogy, value-based education and industry
               collaboration.
-            </span>
-            <span className="block text-left">
-              <span className="font-bold text-gray-700">
+            </div>
+            <div className="block text-left">
+              <div className="font-bold text-xl text-center pt-4 text-gray-700">
                 Mission of the Department
-              </span>{" "}
+              </div>
               is to establish learning ambience for ushering in computer
               engineering professionals in core and multidisciplinary arena by
               developing problem-solving skills through emerging technologies.
-            </span>
-          </p>
+            </div>
+          </div>
         </div>
       </div>
     </>

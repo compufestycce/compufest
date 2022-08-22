@@ -1,6 +1,6 @@
 import React from "react";
 import EventCards from "./eventCards";
-import events from "../data/eventsData";
+import {eventsNational,eventsInterational} from "../data/eventsData";
 
 const Events = () => {
   return (
@@ -21,13 +21,24 @@ const Events = () => {
           </p>
         </div>
       </div>
+      <p className="pt-4 text-3xl mx-auto text-gray-700 text-center z-50 font-semibold">National Events</p>
       <div
         className="text-gray-900 body-font overflow-hidden"
         id="events"
         style={{backgroundColor: "#c9c9c9"}}
       >
-        {events
-          ? events.map((event) => <EventCards key={event.title} {...event} />)
+        {eventsNational
+          ? eventsNational.map((event) => <EventCards key={event.title} {...event} />)
+          : null}
+      </div>
+      <p className="pt-4 text-3xl mx-auto text-gray-700 text-center z-50 font-semibold">International Events</p>
+      <div
+        className="text-gray-900 body-font overflow-hidden"
+        id="events"
+        style={{backgroundColor: "#c9c9c9"}}
+      >
+        {eventsInterational
+          ? eventsInterational.map((event) => <EventCards key={event.title} {...event} />)
           : null}
       </div>
     </section>
