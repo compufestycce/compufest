@@ -126,7 +126,7 @@ const Hero = () => {
           className="text-center"
         > 
           <p className="mt-12 font-medium text-lg">
-            <span className="text-gray-800"> A National Level Technical Fest </span> 
+            <span className="text-gray-800"> 1<sup>st</sup> International Level Technical Fest</span> 
             <span className="block mt-2 text-gray-900 text-lg md:text-2xl font-medium">
               Department of Computer Technology
             </span>

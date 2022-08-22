@@ -52,8 +52,8 @@ const EventCards = ({
           alt="FotoFreaks Poster"
           placeholder={"blur"}
           className="object-cover object-center"
-          width={350}
-          height={500}
+          width={600}
+          height={400}
           // width={348}
           // height={492}
         />

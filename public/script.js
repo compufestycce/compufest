@@ -1,9 +1,8 @@
 const app = new SpeRuntime.Application();
-console.log(app);
 app.start("/scene.gltf");
 window.onload=()=>{
-    let element = document.getElementById('canvas3d');
-    console.log(element);
-    element.style.width = "75%";
-    element.style.height = "75%";
+    let  elem = document.getElementById("canvas3d");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
+    elem.style.width = "75%";
+    elem.style.height = "75%";
 }
+

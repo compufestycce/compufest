@@ -33,6 +33,9 @@ body {
 
 @media only screen and (max-width: 786px) {
   #canvas3d{
-    margin-top: 38%;
+    margin-top: 34%;
+  }
+  #bgHeader{
+    background-color: #c9c9c9;
   }
 }
