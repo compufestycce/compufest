@@ -1,20 +1,20 @@
-import workshop from "../public/assets/imgs/events/workshop.webp";
-import Artika from "../public/assets/imgs/events/Artika.webp";
-import Binary from "../public/assets/imgs/events/Binary Search.webp";
-import Burn from "../public/assets/imgs/events/Burn-a-word.webp";
-import Chronowar from "../public/assets/imgs/events/Chronowar.webp";
-import Code from "../public/assets/imgs/events/Code Breakers.webp";
-import Codigo from "../public/assets/imgs/events/Codigo.webp";
-import Technologies from "../public/assets/imgs/events/Computing Technologies.webp";
-import Creative from "../public/assets/imgs/events/Creative Crisp.webp";
-import Flashmob  from "../public/assets/imgs/events/Flashmob.webp";
-import Gamathon from "../public/assets/imgs/events/Gamathon.webp";
-import Hackthon from "../public/assets/imgs/events/Hackthon.webp";
-import Izzhar from "../public/assets/imgs/events/Izzhar.webp";
-import Reverse  from "../public/assets/imgs/events/Reverse Coding.webp";
+import workshop from "../public/assets/imgs/events/workshop.jpg";
+import Artika from "../public/assets/imgs/events/Artika.jpg";
+import Binary from "../public/assets/imgs/events/Binary Search.jpg";
+import Burn from "../public/assets/imgs/events/Burn-a-word.jpg";
+import Chronowar from "../public/assets/imgs/events/Chronowar.jpg";
+import Code from "../public/assets/imgs/events/Code Breakers.jpg";
+import Codigo from "../public/assets/imgs/events/Codigo.jpg";
+import Technologies from "../public/assets/imgs/events/Computing Technologies.jpg";
+import Creative from "../public/assets/imgs/events/Creative Crisp.jpg";
+import Flashmob  from "../public/assets/imgs/events/Flashmob.jpg";
+import Gamathon from "../public/assets/imgs/events/Gamathon.jpg";
+import Hackthon from "../public/assets/imgs/events/Hackthon.jpg";
+import Izzhar from "../public/assets/imgs/events/Izzhar.jpg";
+import Reverse  from "../public/assets/imgs/events/Reverse Coding.jpg";
 import Snapzia from "../public/assets/imgs/events/Snapzia.webp";
-import Sparq from "../public/assets/imgs/events/Sparq.webp";
-import Table from "../public/assets/imgs/events/Table Topics.webp";
+import Sparq from "../public/assets/imgs/events/Sparq.jpg";
+import Table from "../public/assets/imgs/events/Table Topics.jpg";
 import Valorant  from "../public/assets/imgs/events/Valorant.webp";
 
 
@@ -32,7 +32,7 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Parth Upgade", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Nehal Sonerkar", number: "", photo:getPhotoURL("nehal")},{name: "Parth Upgade", number: "", photo:getPhotoURL("parth")},
     ],
   },
   {
@@ -46,7 +46,7 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("nik")},
+      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("nik")},{name: "Vishal Kapgate", number: "", photo:getPhotoURL("defaultAvatar")},
     ],
   },
   
@@ -62,24 +62,31 @@ const eventsNational = [
     CTAClosedMsg: "Submission Closed",
     organizers: [
       {name: "Kartik Umbarkar", number: "", photo:getPhotoURL("karU")},
+      {name: "Aniruddha Bhat", number: "", photo:getPhotoURL("ani")},
     ],
   },
+
 
   {
-    img: Codigo,
-    title: "Codigo",
-    category: "Coding",
-    desc: "Codigo is an online coding competition organized by the CodeChef YCCE Chapter. It's a battle for those who are interested in solving energizing problems. Here, participants will have the opportunity to develop and test their programming skills. No matter whether you are a beginner or an experienced coder, the only prerequisite is that the contestant should be familiar with the CodeChef platform.",
-    cta: "Submit Now",
-    ctaLink: "https://forms.gle/6whHc9uHQkwjsJjr6",
+    img: Snapzia,
+    title: "Snapzia",
+    category: "Photography",
+    desc: `Hola amigos!!!
+    Smile please 😁😁☺️
+    Yes here the most awaited competition coming to you. 
+    "SAY CHEESE" is the competition for all the photographers out there to show your photography skills 📸.
+    Bring your love and emotions through your photographs and showcase it to the world. 
+    
+    Winning photographs will be showcased to our Compufest Instagram page handle ..`,
+    cta: "Register Now",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
+    ctaLink: "https://forms.gle/oXUBQ9Ggj98tnyEy9",
     isCTAClosed: false,
-    CTAClosedMsg: "Submission Closed",
+    CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Haziquddin", number: "", photo:getPhotoURL("haziq")},
+      {name: "Atharav Kevalram", number: "", photo:getPhotoURL("ath")},{name: "Apeksha Kharwal", number: "", photo:getPhotoURL("defaultAvatar")},
     ],
   },
-
   {
     img: Binary,
     title: "Binary Search",
@@ -91,7 +98,7 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Prasanna Anjankar", number: "", photo:getPhotoURL("pras")},
+      {name: "Prasanna Anjankar", number: "", photo:getPhotoURL("pras")},{name: "Mrunal Singhade", number: "", photo:getPhotoURL("mru")},
     ],
   },
   {
@@ -107,7 +114,7 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("sak")},
+      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("sak")},{name: "Gunjan Khonde", number: "", photo:getPhotoURL("gunjan")},
     ],
   },
   {
@@ -121,7 +128,7 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("sak")},
+      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("sak")},{name: "Mohit Kulkarni", number: "", photo:getPhotoURL("mohit")},
     ],
   },
   {
@@ -135,7 +142,9 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Deepam Waghye", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Deepam Waghye", number: "", photo:getPhotoURL("deep")},
+      {name: "Aman Kapse", number: "", photo:getPhotoURL("aman")},
+      {name: "Rutweek Duragkar", number: "", photo:getPhotoURL("rut")},
     ],
   },
   {
@@ -149,7 +158,7 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("nik")},
+      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("nik")},{name: "Pratyusha Godse", number: "", photo:getPhotoURL("defaultAvatar")},
     ],
   },
   {
@@ -188,7 +197,7 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("sak")},
+      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("sak")},{name: "Gunjan Khonde", number: "", photo:getPhotoURL("gunjan")},
     ],
   },
   {
@@ -201,10 +210,10 @@ const eventsInterational = [
     cta: "Submit Now",
     ctaLink: "https://forms.gle/aEVmLUaBbeTfcNaA9",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("nik")},
+      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("nik")},{name: "Aditya Balki", number: "", photo:getPhotoURL("defaultAvatar")},
     ],
   },
   {
@@ -218,7 +227,7 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Bhushan Naidu", number: "", photo:getPhotoURL("bhu")},
+      {name: "Bhushan Naidu", number: "", photo:getPhotoURL("bhu")},{name: "Shreyas Thakre", number: "", photo:getPhotoURL("defaultAvatar")},
     ],
   },
   {
@@ -232,7 +241,7 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Mohit Kulkarni", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Mohit Kulkarni", number: "", photo:getPhotoURL("mohit")},{name: "Nayan Mankar", number: "", photo:getPhotoURL("nayan")},
     ],
   },
   {
@@ -246,7 +255,7 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Pranjali Thaware", number: "", photo:getPhotoURL("pra")},
+      {name: "Pranjali Thaware", number: "", photo:getPhotoURL("pra")},{name: "Himanshu Agarkar", number: "", photo:getPhotoURL("defaultAvatar")},
     ],
   },
   {
@@ -264,27 +273,22 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Poorvi Yellarthi", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Poorvi Yellarthi", number: "", photo:getPhotoURL("defaultAvatar")},{name: "Nayan Mankar", number: "", photo:getPhotoURL("nayan")},
     ],
   },
   {
-    img: Snapzia,
-    title: "Snapzia",
-    category: "Photography",
-    desc: `Hola amigos!!!
-    Smile please 😁😁☺️
-    Yes here the most awaited competition coming to you. 
-    "SAY CHEESE" is the competition for all the photographers out there to show your photography skills 📸.
-    Bring your love and emotions through your photographs and showcase it to the world. 
-    
-    Winning photographs will be showcased to our Compufest Instagram page handle ..`,
-    cta: "Register Now",
+    img: Codigo,
+    title: "Codigo",
+    category: "Coding",
+    desc: "Codigo is an online coding competition organized by the CodeChef YCCE Chapter. It's a battle for those who are interested in solving energizing problems. Here, participants will have the opportunity to develop and test their programming skills. No matter whether you are a beginner or an experienced coder, the only prerequisite is that the contestant should be familiar with the CodeChef platform.",
+    cta: "Submit Now",
+    ctaLink: "https://forms.gle/6whHc9uHQkwjsJjr6",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    ctaLink: "https://forms.gle/oXUBQ9Ggj98tnyEy9",
     isCTAClosed: false,
-    CTAClosedMsg: "Registration Closed",
+    CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Atharav Kevalram", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Himanshu Upase", number: "", photo:getPhotoURL("him")},
+      {name: "Haziquddin Ansari", number: "", photo:getPhotoURL("haziq")},
     ],
   },
   {
@@ -298,7 +302,7 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Kartik Yeole", number: "", photo:getPhotoURL("kar")},
+      {name: "Kartik Yeole", number: "", photo:getPhotoURL("kar")},{name: "Chayna Bhandarkar", number: "", photo:getPhotoURL("cha")},
     ],
   },
 ];

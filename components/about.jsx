@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import AcmLogo from "../public/assets/imgs/acmStudentChapter.png";
+import AcmLogo from "../public/assets/imgs/acmLogo.png";
 import CTSCLogo from "../public/assets/imgs/CTSC.png";
 const About = () => {
   return (

@@ -21,17 +21,29 @@ const Events = () => {
           </p>
         </div>
       </div>
-      <p className="pt-4 text-3xl mx-auto text-gray-700 text-center z-50 font-semibold">National Events</p>
-      <div
-        className="text-gray-900 body-font overflow-hidden"
-        id="events"
-        style={{backgroundColor: "#c9c9c9"}}
-      >
-        {eventsNational
-          ? eventsNational.map((event) => <EventCards key={event.title} {...event} />)
-          : null}
+
+      <div className="flex items-center justify-center px-3 mb-10 py-3">
+        <div className="w-full mx-auto max-w-2xl rounded-lg bg-white dark:bg-gray-800 shadow-lg px-5 pt-5 pb-10 text-gray-800 dark:text-gray-50">
+          <div className="w-full pt-1 text-center pb-5 -mt-16 mx-auto">
+            <a href="#" className="block relative">
+              <img alt="profil" src="assets/imgs/rocket.png" className="mx-auto object-cover rounded-full h-20 w-20 " />
+            </a>
+          </div>
+          <div className="w-full mb-10">
+            <div className="text-3xl text-indigo-500 text-left leading-tight h-3">
+              “
+            </div>
+            <p className="text-3xl text-gray-600 dark:text-gray-100 text-center px-5">
+            Exciting prizes to all winners and certificates to all winners &amp; participants.
+            </p>
+            <div className="text-3xl text-indigo-500 text-right leading-tight h-3 -mt-3">
+              ”
+            </div>
+          </div>
+        </div>
       </div>
-      <p className="pt-4 text-3xl mx-auto text-gray-700 text-center z-50 font-semibold">International Events</p>
+      <hr className="bg-gray-900 mx-auto w-1/5" style={{ height:"3px"}}/>
+      <p className="pt-8 text-3xl mx-auto text-gray-700 text-center z-50 font-semibold">International Events</p>
       <div
         className="text-gray-900 body-font overflow-hidden"
         id="events"
@@ -39,6 +51,17 @@ const Events = () => {
       >
         {eventsInterational
           ? eventsInterational.map((event) => <EventCards key={event.title} {...event} />)
+          : null}
+      </div>
+      <hr className="bg-gray-900 mx-auto w-1/5" style={{ height:"3px"}}/>
+      <p className="pt-4 text-3xl mx-auto text-gray-700 text-center z-50 font-semibold mt-4">National Events</p>
+      <div
+        className="text-gray-900 body-font overflow-hidden"
+        id="events"
+        style={{backgroundColor: "#c9c9c9"}}
+      >
+        {eventsNational
+          ? eventsNational.map((event) => <EventCards key={event.title} {...event} />)
           : null}
       </div>
     </section>

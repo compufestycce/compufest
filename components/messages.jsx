@@ -51,7 +51,7 @@ const CoordinatorMsg = ({ photo, msg, name, subtitle }) => {
         <img
           loading="lazy"
           alt="prof"
-          className="w-20 h-20 mb-4 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+          className="w-28 h-28 mb-4 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
           src={photo ? photo : "https://dummyimage.com/302x302"}
         />
         <p className="leading-relaxed text-base">{msg}</p>
@@ -69,13 +69,13 @@ const msgs = [
   {
     msg: "Compufest provides a platform for our students to grow more in technical as well as non-technical world. ",
     name: "Prof. Supriya Thombre",
-    subtitle: "Student Coordinator",
+    subtitle: "Incharge",
     photo: getPhotoURL("prof2"),
   },
   {
     msg: "Compufest provides students with technology traits to compete with the world and be the leaders.",
     name: "Prof. Ganesh Yenurkar",
-    subtitle: "Student Co-coordinator",
+    subtitle: "Co-Incharge",
     photo: getPhotoURL("prof3"),
   },
 ];
