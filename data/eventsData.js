@@ -32,7 +32,8 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Nehal Sonerkar", number: "", photo:getPhotoURL("nehal")},{name: "Parth Upgade", number: "", photo:getPhotoURL("parth")},
+      {name: "Nehal Sonerkar", number: "+91 86682 98921", photo:getPhotoURL("nehal")},
+      {name: "Parth Upgade", number: "+91 74997 54608", photo:getPhotoURL("parth")},
     ],
   },
   {
@@ -46,7 +47,7 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("nik")},{name: "Vishal Kapgate", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Nikhil Tamrakar", number: "+91 89994 49698", photo:getPhotoURL("nik")},{name: "Vishal Kapgate", number: "+91 96041 40409", photo:getPhotoURL("vish")},
     ],
   },
   
@@ -61,8 +62,8 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Kartik Umbarkar", number: "", photo:getPhotoURL("karU")},
-      {name: "Aniruddha Bhat", number: "", photo:getPhotoURL("ani")},
+      {name: "Kartik Umbarkar", number: "+91 99214 90393", photo:getPhotoURL("karU")},
+      {name: "Aniruddha Bhat", number: "+91 82081 25480", photo:getPhotoURL("ani")},
     ],
   },
 
@@ -84,7 +85,7 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Atharav Kevalram", number: "", photo:getPhotoURL("ath")},{name: "Apeksha Kharwal", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Atharav Kevalram", number: "+91 78419 54885", photo:getPhotoURL("athk")},{name: "Apeksha Kharwal", number: "+91 77739 98591", photo:getPhotoURL("apek")},
     ],
   },
   {
@@ -98,7 +99,7 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Prasanna Anjankar", number: "", photo:getPhotoURL("pras")},{name: "Mrunal Singhade", number: "", photo:getPhotoURL("mru")},
+      {name: "Prasanna Anjankar", number: "+91 74478 98717", photo:getPhotoURL("pras")},{name: "Mrunal Singhade", number: "+91 90288 44954", photo:getPhotoURL("mru")},
     ],
   },
   {
@@ -114,12 +115,12 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("sak")},{name: "Gunjan Khonde", number: "", photo:getPhotoURL("gunjan")},
+      {name: "Sakshi Kokardekar", number: "+91 98946 99547", photo:getPhotoURL("sak")},{name: "Gunjan Khonde", number: "+91 70206 12265", photo:getPhotoURL("gunjan")},
     ],
   },
   {
     img: Artika,
-    title: "Artika",
+    title: "Articka",
     category: "Live Art",
     desc: "Art should be something that liberates the soul, provokes the imagination and encourages people to go further. Your art is a line around your thoughts. If you have an art that evokes mystery this is the opportunity to showcase your talent. Let others see & feel your artwork. We welcome all Enthusiasts from every corner, to participate in live art events; an event in which you will not reproduce reality but have to create reality of the same intensity. If you have the adroitness to make others feel your vision then this is something for you. Reboot your Intense mode of individualism. Don't miss the chance to flaunt your skills in the form of art. ",
     cta: "Register Now",
@@ -128,7 +129,7 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("sak")},{name: "Mohit Kulkarni", number: "", photo:getPhotoURL("mohit")},
+      {name: "Sakshi Kokardekar", number: "+91 98946 99547", photo:getPhotoURL("sak")},{name: "Mohit Kulkarni", number: "+91 96040 04422", photo:getPhotoURL("mohit")},
     ],
   },
   {
@@ -142,9 +143,9 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Deepam Waghye", number: "", photo:getPhotoURL("deep")},
-      {name: "Aman Kapse", number: "", photo:getPhotoURL("aman")},
-      {name: "Rutweek Duragkar", number: "", photo:getPhotoURL("rut")},
+      {name: "Deepam Waghye", number: "+91 98346 42731", photo:getPhotoURL("deep")},
+      {name: "Aman Kapse", number: "+91 90210 01430", photo:getPhotoURL("aman")},
+      {name: "Rutweek Duragkar", number: "+91 70209 46952", photo:getPhotoURL("rut")},
     ],
   },
   {
@@ -158,7 +159,7 @@ const eventsNational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("nik")},{name: "Pratyusha Godse", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Nikhil Tamrakar", number: "+91 89994 49698", photo:getPhotoURL("nik")},{name: "Pratyusha Godse", number: "+91 74105 54285", photo:getPhotoURL("pratyusha")},
     ],
   },
   {
@@ -177,7 +178,7 @@ const eventsNational = [
     isCTAClosed: true,
     CTAClosedMsg: "2 pm Onwards",
     organizers: [
-      {name: "Bhargavi Bodhankar", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Bhargavi Bodhankar", number: "+91 91451 18559", photo:getPhotoURL("bhargavi")},
     ],
   },
 ];
@@ -197,7 +198,8 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Sakshi Kokardekar", number: "", photo:getPhotoURL("sak")},{name: "Gunjan Khonde", number: "", photo:getPhotoURL("gunjan")},
+      {name: "Sakshi Kokardekar", number: "+91 98946 99547", photo:getPhotoURL("sak")},
+      {name: "Gunjan Khonde", number: "+91 70206 12265", photo:getPhotoURL("gunjan")},
     ],
   },
   {
@@ -213,7 +215,7 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Nikhil Tamrakar", number: "", photo:getPhotoURL("nik")},{name: "Aditya Balki", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Nikhil Tamrakar", number: "+91 89994 49698", photo:getPhotoURL("nik")},{name: "Aditya Balki", number: "+91 93409 07690", photo:getPhotoURL("adi")},
     ],
   },
   {
@@ -227,7 +229,7 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Bhushan Naidu", number: "", photo:getPhotoURL("bhu")},{name: "Shreyas Thakre", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Bhushan Naidu", number: "+91 87885 02317", photo:getPhotoURL("bhu")},{name: "Shreyas Thakre", number: "+91 98905 40183", photo:getPhotoURL("shr")},
     ],
   },
   {
@@ -241,7 +243,7 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Mohit Kulkarni", number: "", photo:getPhotoURL("mohit")},{name: "Nayan Mankar", number: "", photo:getPhotoURL("nayan")},
+      {name: "Mohit Kulkarni", number: "+91 96040 04422", photo:getPhotoURL("mohit")},{name: "Nayan Mankar", number: "+91 93592 45060", photo:getPhotoURL("nayan")},
     ],
   },
   {
@@ -255,7 +257,7 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Pranjali Thaware", number: "", photo:getPhotoURL("pra")},{name: "Himanshu Agarkar", number: "", photo:getPhotoURL("defaultAvatar")},
+      {name: "Pranjali Thaware", number: "+91 92842 58227", photo:getPhotoURL("pra")},{name: "Himanshu Agarkar", number: "+91 98222 26208", photo:getPhotoURL("Himanshu")},
     ],
   },
   {
@@ -273,7 +275,7 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Poorvi Yellarthi", number: "", photo:getPhotoURL("defaultAvatar")},{name: "Nayan Mankar", number: "", photo:getPhotoURL("nayan")},
+      {name: "Poorvi Yellarthi", number: "+91 94037 86559", photo:getPhotoURL("poorvi")},{name: "Nayan Mankar", number: "+91 93592 45060", photo:getPhotoURL("nayan")},
     ],
   },
   {
@@ -287,8 +289,8 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Himanshu Upase", number: "", photo:getPhotoURL("him")},
-      {name: "Haziquddin Ansari", number: "", photo:getPhotoURL("haziq")},
+      {name: "Himanshu Upase", number: "+91 98222 26208", photo:getPhotoURL("him")},
+      {name: "Haziquddin Ansari", number: "+91 73786 75296", photo:getPhotoURL("haziq")},
     ],
   },
   {
@@ -302,7 +304,7 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
-      {name: "Kartik Yeole", number: "", photo:getPhotoURL("kar")},{name: "Chayna Bhandarkar", number: "", photo:getPhotoURL("cha")},
+      {name: "Kartik Yeole", number: "+91 70289 21797", photo:getPhotoURL("kar")},{name: "Chayna Bhandarkar", number: "+91 93591 05532", photo:getPhotoURL("cha")},
     ],
   },
 ];

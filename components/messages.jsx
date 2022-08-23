@@ -17,12 +17,12 @@ const HODMsg = () => {
           <p className="leading-relaxed text-base">
             Technology is the essence of today's world. Being the Head of the
             Computer Technology Department, YCCE, Nagpur, I am glad to announce
-            the 26th edition of an annual technical event of the department
+            the 27th edition of an annual technical event of the department
             “COMPUFEST 2K22”. We as faculty members work with the sole objective
             of nurturing the students with multidimensional skill sets to make
             them perform impeccably. Amid this global pandemic, events like
             Compufest will keep the technical spark alive in students. Let’s
-            embark together on this brilliant journey of Compufest2k21 at
+            embark together on this brilliant journey of Compufest2k22 at
             Computer Technology, YCCE. Good Luck!
           </p>
           <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>

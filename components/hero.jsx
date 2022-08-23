@@ -133,6 +133,9 @@ const Hero = () => {
             <span className="block text-gray-900 text-lg md:text-3xl font-bold">
               Yeshwantrao Chavan College of Engineering
             </span>
+            <span className="block text-gray-800 text-xl font-bold pt-2">
+              1<sup>st</sup> Sept. to 3<sup>rd</sup> Sept.
+            </span>
           </p>
         </motion.div>
       </div>

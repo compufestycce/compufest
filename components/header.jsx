@@ -12,10 +12,16 @@ const Header = () => {
   const scroll = () => {
     if (window.scrollY > window.screen.height / 2) {setScrolledDown(true);
       document.getElementById('bgHeader').style.backgroundColor= "#c9c9c9";
+      let  elem = document.getElementById("canvas3d");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
+      elem.style.width = "75%";
+      elem.style.height = "75%";
     }
     else {
       setScrolledDown(false);
       document.getElementById('bgHeader').style.backgroundColor= "transparent";
+      let  elem = document.getElementById("canvas3d");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
+      elem.style.width = "75%";
+      elem.style.height = "75%";
     }
 
   };

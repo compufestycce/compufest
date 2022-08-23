@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const Organizer = ({ photo, name, number }) => {
+  let num = "tel:"+number;
   return (
     <div className="flex items-center">
       <img
@@ -14,9 +15,9 @@ const Organizer = ({ photo, name, number }) => {
       />
       <span className="flex-grow flex flex-col pl-4">
         <span className="title-font font-medium text-black">{name}</span>
-        {/* <span className="text-gray-500 text-xs tracking-widest mt-0.5">
+        <a href={num} className="text-gray-500 text-xs tracking-widest mt-0.5">
           {number}
-        </span> */}
+        </a>
       </span>
     </div>
   );
