@@ -14,7 +14,7 @@ const Header = () => {
     if (window.scrollY > window.screen.height / 3) {setScrolledDown(true);
       document.getElementById('bgHeader').style.backgroundColor= "#c9c9c9";
       try{
-        let  elem = document.getElementById("canvas3d");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
+        let  elem = document.getElementById("canvasContainer");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
         elem.style.width = "78%";
         elem.style.height = "78%";
         elem.style.display="none";
@@ -27,7 +27,7 @@ const Header = () => {
       setScrolledDown(false);
       document.getElementById('bgHeader').style.backgroundColor= "transparent";
       try{
-        let  elem = document.getElementById("canvas3d");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
+        let  elem = document.getElementById("canvasContainer");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
         elem.style.width = "78%";
         elem.style.height = "78%";
         elem.style.display="block";
