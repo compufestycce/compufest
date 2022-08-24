@@ -30,11 +30,11 @@ export const ctscTeam = [{
     subtitle: "CTSC Vice President",
     photo: getPhotoURL("parth"),
   },
-  {
-    name: "Deepam Waghaye",
-    subtitle: "Treasurer",
-    photo: getPhotoURL("deep"),
-  },
+  // {
+  //   name: "Deepam Waghaye",
+  //   subtitle: "Treasurer",
+  //   photo: getPhotoURL("deep"),
+  // },
 ];
 export const designTeam = [{
     name: "Mohit Kulkarni",
@@ -92,6 +92,13 @@ export const designTeam = [{
   //   subtitle: "Designer",
   //   photo: getPhotoURL("bb1"),
   // },
+];
+
+export const technicalTeam = [{
+  name: "Ankit Gupta",
+  subtitle: "Technical Head",
+  photo: getPhotoURL("ank"),
+},
 ];
 
 export const literaryTeam = [{

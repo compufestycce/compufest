@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, Suspense, lazy } from 'react';
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-import SplineComponent from "./SplineComponent";
+// import SplineComponent from "./SplineComponent";
+const SplineComponent = lazy(() => import('./SplineComponent'));
+
 const heroLogoVariants = {
   hidden: {
     x: "calc(100vw - 85vw)",
@@ -15,6 +17,7 @@ const heroLogoVariants = {
     rotate: 0,
   },
 };
+
 
 const heroTextVariants = {
   hidden: {
@@ -46,6 +49,10 @@ const Hero = () => {
   const [animateStart, setAnimateStart] = useState(true);
   React.useState(() => {
     setTimeout(() => setAnimateStart(true), 1000);
+  }, []);
+  const [isMounted, setIsMounted] = useState(false);
+  useEffect(() => {
+    setIsMounted(true);
   }, []);
   return (
     <div className="min-h-screen pt-24 flex flex-col justify-center relative">
@@ -141,7 +148,13 @@ const Hero = () => {
       </div>
       </div>
 
-      <div className="z-0 absolute w-full h-full top-0 left-0 bg-bg_custom"> <SplineComponent /></div> 
+      { !isMounted ? null : (
+        <Suspense fallback={null}>
+          {/* <ThreeCanvas /> */}
+          <div className="z-0 absolute w-full h-full top-0 left-0 bg-bg_custom"> <SplineComponent /> </div> 
+        </Suspense>
+      )}
+
     </div>
   );
 };

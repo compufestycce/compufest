@@ -191,7 +191,8 @@ const eventsInterational = [
     desc: `Learning is unifying seemingly divergent ideas and data. 
     It's a chance to interact with the Microsoft Ambassadors LIVE!!!
     Microsoft Learn Student Ambassadors from all over the world and the Program Administrator will be there to share their knowledge on Cloud Computing and Computer Vision on MS Azure. 
-    Hands on sessions by Microsoft Ambassadors for leveraging the learning by doing approach. If you are Enthusiastic about learning some exciting unknown applications of Cloud and Azure this is the Chance to expand your knowledge and get a mastery in Cloud and Azure. A verified  Certificate from Microsoft will be given to all the attendees…`,
+    Hands on sessions by Microsoft Ambassadors for leveraging the learning by doing approach. If you are Enthusiastic about learning some exciting unknown applications of Cloud and Azure this is the Chance to expand your knowledge and get a mastery in Cloud and Azure. A verified  Certificate from Microsoft will be given to all the attendees… \n hh
+    hh`,
     cta: "Submit Now",
     ctaLink: "https://forms.gle/EMnfy8Ca6jECtsYJA",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
@@ -206,9 +207,7 @@ const eventsInterational = [
     img: Code,
     title: "Code Breakers",
     category: "Coding",
-    desc: `Opportunities don't happen, you create them. Come and get the opportunity to clear all your doubts regarding your  dream company. Our speaker will be introducing you to the essence of IT hiring, coding requirements, languages needed, trending technologies and many more. Get the answer to the most common query- “Why IT?”
-    Why are you waiting now? Give a shot with our speaker and get much needed guidance!
-    `,
+    desc: "Opportunities don't happen, you create them. Come and get the opportunity to clear all your doubts regarding your  dream company. Our speaker will be introducing you to the essence of IT hiring, coding requirements, languages needed, trending technologies and many more. Get the answer to the most common query- “Why IT?” Why are you waiting now? \n Give a shot with our speaker and get much needed guidance!",
     cta: "Submit Now",
     ctaLink: "https://forms.gle/aEVmLUaBbeTfcNaA9",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",

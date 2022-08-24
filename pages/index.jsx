@@ -6,7 +6,7 @@ import Header from "../components/header";
 import Hero from "../components/hero";
 import Messages from "../components/messages";
 import Schedule from "../components/schedule";
-
+// import Script from 'next/script';
 const description =
   "Compufest is a National Level Technical Fest organized by the Department of Computer Technology, Yeshwantrao Chavan College of Engg., Nagpur";
 
@@ -36,9 +36,8 @@ export default function Home() {
         <meta property="og:image:height" content="628" />
         <meta property="twitter:card" content="summary_large_image" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-        <script src="https://cdn.spline.design/lib/anime.min.js"></script>
         <script src="https://assets.codepen.io/9589/spline.runtime.min.js"></script>  
-        <script src="script.js"></script>
+        <script strategy="onLoad" src="script.js"></script>
       </Head>
       <Header />
       <main className="flex flex-col flex-1">

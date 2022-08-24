@@ -3,6 +3,7 @@ import Link from "next/link";
 import CountDown from "./countdown";
 import { motion, AnimatePresence } from "framer-motion";
 
+
 const Header = () => {
   const [scrolledDown, setScrolledDown] = useState(false);
   const [windowWidth, setWindowWidth] = useState(0);
@@ -10,18 +11,29 @@ const Header = () => {
     window.scrollTo(100, 500);
   };
   const scroll = () => {
-    if (window.scrollY > window.screen.height / 2) {setScrolledDown(true);
+    if (window.scrollY > window.screen.height / 3) {setScrolledDown(true);
       document.getElementById('bgHeader').style.backgroundColor= "#c9c9c9";
-      let  elem = document.getElementById("canvas3d");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
-      elem.style.width = "75%";
-      elem.style.height = "75%";
+      try{
+        let  elem = document.getElementById("canvas3d");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
+        elem.style.width = "75%";
+        elem.style.height = "75%";
+        elem.style.display="none";
+      }catch(err){
+        console.log(err);
+      }
+
     }
     else {
       setScrolledDown(false);
       document.getElementById('bgHeader').style.backgroundColor= "transparent";
-      let  elem = document.getElementById("canvas3d");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
-      elem.style.width = "75%";
-      elem.style.height = "75%";
+      try{
+        let  elem = document.getElementById("canvas3d");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
+        elem.style.width = "75%";
+        elem.style.height = "75%";
+        elem.style.display="block";
+      }catch(err){
+        console.log(err);
+      }
     }
 
   };

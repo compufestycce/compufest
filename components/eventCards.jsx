@@ -76,7 +76,7 @@ const EventCards = ({
           <a
             href={ctaLink && !isCTAClosed ? ctaLink : "#"}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer" 
             className={`group inline-flex items-center mr-auto xl:mr-0 xl:ml-auto py-2 px-3 rounded-lg ring-2 hover:bg-indigo-400 focus:bg-indigo-400 hover:text-gray-900 focus:text-gray-900 transition-colors ${
               isCTAClosed
                 ? `pointer-events-none text-gray-500 ring-gray-500`

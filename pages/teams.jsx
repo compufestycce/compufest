@@ -7,6 +7,7 @@ import {
   designTeam,
   literaryTeam,
   StudentCoordinators,
+  technicalTeam,
 } from "../data/teamsData";
 
 const Member = ({ photo, name, subtitle }) => {
@@ -106,6 +107,14 @@ const Teams = () => {
           <div className="flex flex-wrap -m-2 flex-1">
             {literaryTeam &&
               literaryTeam.map((mem) => <Member key={mem.name} {...mem} />)}
+          </div>
+          <div className="mb-16" />
+          <div className="text-lg text-gray-200 font-bold px-2 pb-2">
+            Technical Team
+          </div>
+          <div className="flex flex-wrap -m-2 flex-1">
+            {technicalTeam &&
+              technicalTeam.map((mem) => <Member key={mem.name} {...mem} />)}
           </div>
         </div>
       </main>
