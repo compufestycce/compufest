@@ -15,8 +15,8 @@ const Header = () => {
       document.getElementById('bgHeader').style.backgroundColor= "#c9c9c9";
       try{
         let  elem = document.getElementById("canvasContainer");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
-        elem.style.width = "78%";
-        elem.style.height = "78%";
+        elem.style.width = "75%";
+        elem.style.height = "75%";
         elem.style.display="none";
       }catch(err){
         
@@ -28,8 +28,8 @@ const Header = () => {
       document.getElementById('bgHeader').style.backgroundColor= "transparent";
       try{
         let  elem = document.getElementById("canvasContainer");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
-        elem.style.width = "78%";
-        elem.style.height = "78%";
+        elem.style.width = "75%";
+        elem.style.height = "75%";
         elem.style.display="block";
       }catch(err){
         

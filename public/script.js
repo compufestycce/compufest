@@ -6,8 +6,8 @@ function afterload() {
         // window.onload=()=>{
         // console.log("still running");
         let  elem = document.getElementById("canvasContainer");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
-        elem.style.width = "78%";
-        elem.style.height = "78%";
+        elem.style.width = "75%";
+        elem.style.height = "75%";
         stopAfterload();
         // }
     }catch(err) {
