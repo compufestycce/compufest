@@ -7,7 +7,7 @@ export const acmTeam = [{
   {
     name: "Himanshu Agarkar",
     subtitle: "ACM Vice Chairperson",
-    photo: getPhotoURL("him"),
+    photo: getPhotoURL("Himanshu"),
   },
   {
     name: "Gunjan Khonde",
