@@ -12,10 +12,10 @@ import Gamathon from "../public/assets/imgs/events/Gamathon.jpg";
 import Hackthon from "../public/assets/imgs/events/Hackthon.jpg";
 import Izzhar from "../public/assets/imgs/events/Izzhar.jpg";
 import Reverse  from "../public/assets/imgs/events/Reverse Coding.jpg";
-import Snapzia from "../public/assets/imgs/events/Snapzia.webp";
+import Snapzia from "../public/assets/imgs/events/Snapzia.jpg";
 import Sparq from "../public/assets/imgs/events/Sparq.jpg";
 import Table from "../public/assets/imgs/events/Table Topics.jpg";
-import Valorant  from "../public/assets/imgs/events/Valorant.webp";
+import Valorant  from "../public/assets/imgs/events/Valorant.jpg";
 
 
 import getPhotoURL from "../utils/getPhotoUrl";
@@ -55,7 +55,9 @@ const eventsNational = [
     img: Gamathon,
     title: "Gamathon",
     category: "Development",
-    desc: "Nowadays, game designing and development has become a trend. It is the art for applying design aesthetics to give birth to a game for different purposes. And developing a game emphasizes on programming. So, we bring to you a workshop “GAMATHON” which will provide the participants deep knowledge regarding game designing and development .Activities will also be conducted in accordance with the same. Then, what are you waiting for ? Hurry and grab a chance for this exciting journey !!! ",
+    desc: `Nowadays, game designing and development has become a trend. It is the art of applying design aesthetics to give birth to a game for different purposes. Developing a game emphasizes on programming. So, we bring to you "GAMATHON JS" - a game designing competition. It will provide an unique opportunity to students to showcase their interactive play systems and designs. 
+    Then, what are you waiting for ? Hurry and grab a chance for this exciting journey !!! 
+    `,
     cta: "Submit Now",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
     ctaLink: "https://forms.gle/7xvL1fE88vE81KTV7",
@@ -73,7 +75,7 @@ const eventsNational = [
     title: "Snapzia",
     category: "Photography",
     desc: `Hola amigos!!!
-    Smile please 😁😁☺️
+    Smile please 😁😁
     Yes here the most awaited competition coming to you. 
     "SAY CHEESE" is the competition for all the photographers out there to show your photography skills 📸.
     Bring your love and emotions through your photographs and showcase it to the world. 

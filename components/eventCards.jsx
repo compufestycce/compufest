@@ -47,10 +47,10 @@ const EventCards = ({
       ref={ref}
       className="container px-5 lg:px-12 py-24 mx-auto flex flex-wrap justify-center"
     >
-      {/* <div className="lg:mr-8 mb-2 lg:mb-0 rounded-lg lg:text-right overflow-hidden">
+      <div className="lg:mr-8 mb-2 lg:mb-0 rounded-lg lg:text-right overflow-hidden">
         <Image
           src={img}
-          alt="FotoFreaks Poster"
+          alt="Event Poster"
           placeholder={"blur"}
           className="object-cover object-center"
           width={600}
@@ -58,8 +58,8 @@ const EventCards = ({
           // width={348}
           // height={492}
         />
-      </div> */}
-      <div className="p-4 lg:p-8 md:pl-0 lg:w-3/4 flex flex-col items-start">
+      </div>
+      <div className="p-4 lg:p-8 md:pl-0 lg:w-1/2 flex flex-col items-start">
         <span className="inline-block py-1 px-2 rounded bg-gray-400 text-black text-opacity-75 text-sm font-medium tracking-widest">
           {category}
         </span>
