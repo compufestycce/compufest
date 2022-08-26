@@ -1,4 +1,4 @@
-const myInterval = setInterval(afterload, 1000);
+var myInterval = setInterval(afterload, 1000);
 function afterload() {
     try{
         var app = new SpeRuntime.Application();

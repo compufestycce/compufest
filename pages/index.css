@@ -30,12 +30,17 @@ body {
   margin: auto;
   margin-top: 4%;
 }
-
+#accDetails{
+  width: 700px;
+}
 @media only screen and (max-width: 786px) {
   #canvas3d{
     margin-top: 34%;
   }
   #bgHeader{
     background-color: #c9c9c9;
+  }
+  #accDetails{
+    width: fit-content;
   }
 }
