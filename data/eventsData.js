@@ -1,20 +1,20 @@
 import workshop from "../public/assets/imgs/events/workshop.jpg";
 import Artika from "../public/assets/imgs/events/Artika.jpg";
-import Binary from "../public/assets/imgs/events/Binary Search.jpg";
+import Binary from "../public/assets/imgs/events/BinarySearch.jpg";
 import Burn from "../public/assets/imgs/events/Burn-a-word.jpg";
 import Chronowar from "../public/assets/imgs/events/Chronowar.jpg";
-import Code from "../public/assets/imgs/events/Code Breakers.jpg";
+import Code from "../public/assets/imgs/events/CodeBreakers.jpg";
 import Codigo from "../public/assets/imgs/events/Codigo.jpg";
-import Technologies from "../public/assets/imgs/events/Computing Technologies.jpg";
-import Creative from "../public/assets/imgs/events/Creative Crisp.jpg";
+import Technologies from "../public/assets/imgs/events/ComputingTechnologies.jpg";
+import Creative from "../public/assets/imgs/events/CreativeCrisp.jpg";
 import Flashmob  from "../public/assets/imgs/events/Flashmob.jpg";
 import Gamathon from "../public/assets/imgs/events/Gamathon.jpg";
 import Hackthon from "../public/assets/imgs/events/Hackthon.jpg";
 import Izzhar from "../public/assets/imgs/events/Izzhar.jpg";
-import Reverse  from "../public/assets/imgs/events/Reverse Coding.jpg";
+import Reverse  from "../public/assets/imgs/events/ReverseCoding.jpg";
 import Snapzia from "../public/assets/imgs/events/Snapzia.jpg";
 import Sparq from "../public/assets/imgs/events/Sparq.jpg";
-import Table from "../public/assets/imgs/events/Table Topics.jpg";
+import Table from "../public/assets/imgs/events/TableTopics.jpg";
 import Valorant  from "../public/assets/imgs/events/Valorant.jpg";
 
 
