@@ -51,7 +51,7 @@ const EventCards = ({
         <Image
           src={img}
           alt="Event Poster"
-          // placeholder={"blur"}
+          placeholder={"blur"}
           className="object-cover object-center"
           width={600}
           height={400}
