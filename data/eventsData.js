@@ -230,7 +230,9 @@ const eventsInterational = [
     isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
-      {name: "Bhushan Naidu", number: "+91 87885 02317", photo:getPhotoURL("bhu")},{name: "Shreyas Thakre", number: "+91 98905 40183", photo:getPhotoURL("shr")},
+      {name: "Bhushan Naidu", number: "+91 87885 02317", photo:getPhotoURL("bhu")},
+      {name: "Shreyas Thakre", number: "+91 98905 40183", photo:getPhotoURL("shr")},
+      {name: "Shakal Patle", number: "+91 98231 84525", photo:getPhotoURL("sha")},
     ],
   },
   {

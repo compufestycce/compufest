@@ -30,12 +30,21 @@ body {
   margin: auto;
   margin-top: 4%;
 }
+video{
+  width: 360px;
+  margin: auto;
+  outline: none;
+  height: 600px;
+  padding: 5px;
+}
 #accDetails{
   width: 700px;
 }
 @media only screen and (max-width: 786px) {
-  #canvas3d{
-    margin-top: 34%;
+  #canvasContainer{
+    margin-top: 5rem;
+    outline: none;
+    border: none;
   }
   #bgHeader{
     background-color: #c9c9c9;
@@ -43,4 +52,5 @@ body {
   #accDetails{
     width: fit-content;
   }
+
 }

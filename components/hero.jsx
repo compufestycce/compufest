@@ -1,8 +1,8 @@
 import React, { useState, useEffect, Suspense, lazy } from 'react';
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-// import SplineComponent from "./SplineComponent";
-const SplineComponent = lazy(() => import('./SplineComponent'));
+import SplineComponent from "./SplineComponent";
+// const SplineComponent = lazy(() => import('./SplineComponent'));
 
 const heroLogoVariants = {
   hidden: {
@@ -148,12 +148,12 @@ const Hero = () => {
       </div>
       </div>
 
-      { !isMounted ? null : (
-        <Suspense fallback={null}>
+      {/* { !isMounted ? null : (
+        <Suspense fallback={null}> */}
           {/* <ThreeCanvas /> */}
           <div className="z-0 absolute w-full h-full top-0 left-0 bg-bg_custom"> <SplineComponent /> </div> 
-        </Suspense>
-      )}
+        {/* </Suspense>
+      )} */}
 
     </div>
   );
