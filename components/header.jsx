@@ -41,7 +41,7 @@ const Header = () => {
     return () => window.removeEventListener("scroll", scroll);
   }, []);
   return (
-    <header id="bgHeader" className="fixed w-full top-0 z-50 text-gray-900 body-font">
+    <header id="bgHeader" className="fixed w-full top-0 z-50 text-gray-900 body-font" >
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav className="flex gap-5 lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
           <Link href="#events">

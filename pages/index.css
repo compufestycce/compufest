@@ -40,15 +40,16 @@ video{
   height: 600px;
   padding: 5px;
   margin-top: 2rem;
+  pointer-events: none;
 }
-
+  #bgHeader{
+    background-color: transparent;
+  }
 @media only screen and (max-width: 786px) {
   #canvas3d{
     margin-top: 34%;
   }
-  #bgHeader{
-    background-color: transparent;
-  }
+
   #accDetails{
     width: fit-content;
   }

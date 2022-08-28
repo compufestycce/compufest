@@ -21,6 +21,7 @@ if (window.innerWidth>=768){                                                    
                 v.src = "./assets/robo.mp4";
                 v.autoplay = true;
                 v.loop = true;
+                v.muted = true;
                 v.type="video/mp4";
                 
                 // Add the video to <div>

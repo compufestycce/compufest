@@ -8,7 +8,7 @@ const Organizer = ({ photo, name, number }) => {
   return (
     <div className="flex items-center">
       <img
-        loading="lazy"
+        // loading="lazy"
         alt="photo"
         src={photo ? photo : "/assets/imgs/portraits/defaultAvatar.jpg"}
         className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
