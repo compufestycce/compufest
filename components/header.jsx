@@ -16,6 +16,8 @@ const Header = () => {
       try{
         let  elem = document.getElementById("canvasContainer");                                                                                                                                                                                                                                                                                                                                                                                              elem = document.getElementById('canvas3d');
         elem.style.display="none";
+        console.log('display="none"');
+        console.log(elem);
       }catch(err){
         
       }
@@ -29,6 +31,7 @@ const Header = () => {
         elem.style.width = "75%";
         elem.style.height = "75%";
         elem.style.display="block";
+
       }catch(err){
         
       }

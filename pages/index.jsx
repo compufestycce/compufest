@@ -37,7 +37,6 @@ export default function Home() {
         <meta property="twitter:card" content="summary_large_image" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
         <script src="https://assets.codepen.io/9589/spline.runtime.min.js"></script>  
-        <script src="scripts/modernizr-custom.js"></script>
         <script src="scripts/script.js"></script>
       </Head>
       <Header />

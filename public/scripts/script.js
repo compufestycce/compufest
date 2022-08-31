@@ -1,5 +1,4 @@
 let  elem = document.getElementById("canvasContainer");  
-console.log("!Modernizr.touch");
 if (window.innerWidth>=768){                                                                                                                                                                                                                                                                                                                                                                                            elem = document.getElementById('canvas3d');
     // var primeWorker = new Worker('/scripts/gltfLoader.js');
     var app = new SpeRuntime.Application();

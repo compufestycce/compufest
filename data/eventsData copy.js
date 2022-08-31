@@ -29,7 +29,7 @@ const eventsNational = [
     cta: "Submit Now",
     ctaLink: "https://forms.gle/8rQftDJEujMfi9RW8",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
       {name: "Nehal Sonerkar", number: "+91 86682 98921", photo:getPhotoURL("nehal")},
@@ -44,7 +44,7 @@ const eventsNational = [
     cta: "Submit Now",
     ctaLink: "https://forms.gle/eswPZLu6XaiTVfmr6",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
       {name: "Nikhil Tamrakar", number: "+91 89994 49698", photo:getPhotoURL("nik")},{name: "Vishal Kapgate", number: "+91 96041 40409", photo:getPhotoURL("vish")},
@@ -61,7 +61,7 @@ const eventsNational = [
     cta: "Submit Now",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
     ctaLink: "https://forms.gle/7xvL1fE88vE81KTV7",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
       {name: "Kartik Umbarkar", number: "+91 99214 90393", photo:getPhotoURL("karU")},
@@ -84,7 +84,7 @@ const eventsNational = [
     cta: "Register Now",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
     ctaLink: "https://forms.gle/oXUBQ9Ggj98tnyEy9",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
       {name: "Atharav Kevalram", number: "+91 78419 54885", photo:getPhotoURL("athk")},{name: "Apeksha Kharwal", number: "+91 77739 98591", photo:getPhotoURL("apek")},
@@ -98,7 +98,7 @@ const eventsNational = [
     cta: "Register Now",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
     ctaLink: "https://forms.gle/Qn2kvtctokZKMC4WA",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
       {name: "Prasanna Anjankar", number: "+91 74478 98717", photo:getPhotoURL("pras")},{name: "Mrunal Singhade", number: "+91 90288 44954", photo:getPhotoURL("mru")},
@@ -114,7 +114,7 @@ const eventsNational = [
     cta: "Register Now",
     ctaLink: "https://forms.gle/T17MGSq25h4b8sei6",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
       {name: "Sakshi Kokardekar", number: "+91 98946 99547", photo:getPhotoURL("sak")},{name: "Gunjan Khonde", number: "+91 70206 12265", photo:getPhotoURL("gunjan")},
@@ -128,7 +128,7 @@ const eventsNational = [
     cta: "Register Now",
     ctaLink: "https://forms.gle/oHMFqbRn5Gr7Vncw8",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
       {name: "Sakshi Kokardekar", number: "+91 98946 99547", photo:getPhotoURL("sak")},{name: "Mohit Kulkarni", number: "+91 96040 04422", photo:getPhotoURL("mohit")},
@@ -142,7 +142,7 @@ const eventsNational = [
     cta: "Register Now",
     ctaLink: "https://forms.gle/EidKrkdGhVwFA8Ai8",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
       {name: "Deepam Waghye", number: "+91 98346 42731", photo:getPhotoURL("deep")},
@@ -158,7 +158,7 @@ const eventsNational = [
     cta: "Register Now",
     ctaLink: "https://forms.gle/q4LAf62p4e4gM4qt8",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
       {name: "Nikhil Tamrakar", number: "+91 89994 49698", photo:getPhotoURL("nik")},{name: "Pratyusha Godse", number: "+91 74105 54285", photo:getPhotoURL("pratyusha")},
@@ -198,7 +198,7 @@ const eventsInterational = [
     cta: "Submit Now",
     ctaLink: "https://forms.gle/EMnfy8Ca6jECtsYJA",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
       {name: "Sakshi Kokardekar", number: "+91 98946 99547", photo:getPhotoURL("sak")},
@@ -213,7 +213,7 @@ const eventsInterational = [
     cta: "Submit Now",
     ctaLink: "https://forms.gle/aEVmLUaBbeTfcNaA9",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
       {name: "Nikhil Tamrakar", number: "+91 89994 49698", photo:getPhotoURL("nik")},{name: "Aditya Balki", number: "+91 93409 07690", photo:getPhotoURL("adi")},
@@ -227,7 +227,7 @@ const eventsInterational = [
     cta: "Submit Now",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
     ctaLink: "https://forms.gle/1L5q4czX2BUEXsWm6",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
       {name: "Bhushan Naidu", number: "+91 87885 02317", photo:getPhotoURL("bhu")},
@@ -243,7 +243,7 @@ const eventsInterational = [
     cta: "Register Now",
     ctaLink: "https://forms.gle/h9nPgfL8VsgP15Du5",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
       {name: "Mohit Kulkarni", number: "+91 96040 04422", photo:getPhotoURL("mohit")},{name: "Nayan Mankar", number: "+91 93592 45060", photo:getPhotoURL("nayan")},
@@ -257,7 +257,7 @@ const eventsInterational = [
     cta: "Register Now",
     ctaMore: "On 1st of Sept. 10 am onwards",
     ctaLink: "https://forms.gle/6LdZP9PCQPKfDDT39",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
       {name: "Pranjali Thaware", number: "+91 92842 58227", photo:getPhotoURL("pra")},{name: "Himanshu Agarkar", number: "+91 98222 26208", photo:getPhotoURL("Himanshu")},
@@ -275,7 +275,7 @@ const eventsInterational = [
     cta: "Register Now",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
     ctaLink: "https://forms.gle/tmMVy1EXGp51aEzSA",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
       {name: "Poorvi Yellarthi", number: "+91 94037 86559", photo:getPhotoURL("poorvi")},{name: "Nayan Mankar", number: "+91 93592 45060", photo:getPhotoURL("nayan")},
@@ -289,7 +289,7 @@ const eventsInterational = [
     cta: "Submit Now",
     ctaLink: "https://forms.gle/6whHc9uHQkwjsJjr6",
     ctaMore: "Submit before: 30th Aug 11:59pm IST",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Submission Closed",
     organizers: [
       {name: "Himanshu Upase", number: "+91 98222 26208", photo:getPhotoURL("him")},
@@ -304,7 +304,7 @@ const eventsInterational = [
     cta: "Register Now",
     ctaMore: "On 1st of Sept. 2 pm Onwards",
     ctaLink: "https://forms.gle/rHP8qiiB46t1VyWG7",
-    isCTAClosed: true,
+    isCTAClosed: false,
     CTAClosedMsg: "Registration Closed",
     organizers: [
       {name: "Kartik Yeole", number: "+91 70289 21797", photo:getPhotoURL("kar")},{name: "Chayna Bhandarkar", number: "+91 93591 05532", photo:getPhotoURL("cha")},
