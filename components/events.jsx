@@ -64,14 +64,7 @@ const Events = () => {
         {eventsInterational
           ? eventsInterational.map((event) => <EventCards key={event.title} {...event} />)
           : null}
-      </div>
-      <hr className="bg-gray-900 mx-auto w-1/5" style={{ height:"3px"}}/>
-      <p className="pt-4 text-3xl mx-auto text-gray-700 text-center z-50 font-semibold mt-4">National Events</p>
-      <div
-        className="text-gray-900 body-font overflow-hidden"
-        id="events"
-        style={{backgroundColor: "#c9c9c9"}}
-      >
+
         {eventsNational
           ? eventsNational.map((event) => <EventCards key={event.title} {...event} />)
           : null}
