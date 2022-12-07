@@ -55,7 +55,7 @@ const allEvents = [
     name: "Reverse Coding",
   },
     {
-    date: "1st September",
+    date: "3rd September",
     time: "11 am to 1 pm",
     name: "Code Breakers",
   },
